@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.background{
+    background-image: url(./images/background\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -30px;
+    left:-30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+.loading{
+    font-size: 50px;
+    color: #fff;
+}
